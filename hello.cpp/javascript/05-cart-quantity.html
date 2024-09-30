@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Document</title>
+</head>
+<body>
+
+  <button onclick="
+    cartQuantity += 4;
+    console.log(cartQuantity);
+    ">+4</button>
+
+  <button onclick="
+    cartQuantity += 5;
+    console.log(cartQuantity);
+  ">+5</button>
+
+  <button onclick="
+    cartQuantity --;
+    console.log(cartQuantity);
+  ">Remove from cart</button>
+
+  <button onclick="
+    cartQuantity -= 2
+    console.log(cartQuantity);
+  ">-2</button>
+
+  <button onclick="
+    cartQuantity -= 3;
+    console.log(cartQuantity);
+  ">-3</button>
+
+  <script>
+
+    let cartQuantity = 0;
+
+    let name = 'isha';
+    console.log(`My name is:${name}`);
+
+    var tax = ((5 + (2 * 3) + 9) * 0.1) ;
+    console.log(`Tax(10%) : $${tax}`);
+    var totalcost = tax + (5 + (2 * 3) + 9);
+    console.log(`Total cost : $${totalcost}`);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(200px, 1fr));
+}
+
+body {
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: rgb(237, 143, 159);
+    line-height: 1.5;
+   
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+   
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 5rem;
+    font-weight: 600;
+    text-decoration: underline overline;
+
+}
+
+#flow > * + * {
+    margin-bottom: var(--flow-space, 1rem);
+    outline: 5px solid pink;
+}

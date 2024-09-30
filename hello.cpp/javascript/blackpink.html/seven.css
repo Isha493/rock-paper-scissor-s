@@ -1,0 +1,98 @@
+body{
+   
+    background-color: #F8C8DC;
+    height: 100vh;
+}
+.image{
+  
+    width: 475px;
+    height: 475px;
+    display: flex;
+    justify-content:baseline;
+    align-items: normal;
+    align-content: normal;
+    margin-top: 20px;
+    padding-right: 30px;
+   
+    
+   
+    
+
+}
+.mandu{
+    margin-right: 20px;
+
+}
+.chu{
+    margin-right: 20px;
+}
+.lili{
+    margin-right: 20px;
+}
+.rosie{
+    margin-right: 20px;
+}
+
+.btn {
+    
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    
+}
+#mandu{
+    background-color:#9bd2ecee;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    
+
+}
+#mandu:hover{
+    color:#de6262be ;
+}
+#chu:hover{
+    color: brown;
+}
+#lili:hover{
+    color: #ffa1c8;
+}
+#rosie:hover{
+    color: rgb(133, 128, 128);
+}
+#chu{
+    background-color: #da70d6fa;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+
+}
+#lili{
+    background-color: rgb(218, 218, 101);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+
+}
+#rosie{
+    background-color: #faafbae5;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+.logo{
+    justify-content: baseline;
+    align-items: center;
+    padding-left: 650px;
+    padding-top: 50px;
+    width: 700px;
+    height: 180px;
+}
+ 
+
